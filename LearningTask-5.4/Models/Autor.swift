@@ -15,7 +15,7 @@ struct Autor {
     let tecnologia: String
     
     var nomeCompleto: String {
-        return "\(nome)\(sobrenome)"
+        return "\(nome) \(sobrenome)"
     }
     
     init(foto: String, nome: String, sobrenome: String, bio: String, tecologia: String) {

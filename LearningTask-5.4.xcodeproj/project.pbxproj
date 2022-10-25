@@ -41,6 +41,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E87F0FC290874B50018F3E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				58C495F927D9239400DCA879 /* AutorRepository.swift */,
+				2E87F0FA2907FE190018F3E5 /* Autor.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2E87F0FD290874C50018F3E5 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				58E6BBBF27D8E29000979DED /* AutorFormViewController.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		2E87F0FE290874D30018F3E5 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				58E6BBBB27D8E29000979DED /* AppDelegate.swift */,
+				58E6BBBD27D8E29000979DED /* SceneDelegate.swift */,
+				58E6BBC627D8E29600979DED /* LaunchScreen.storyboard */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		2E87F0FF290874FD0018F3E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				58E6BBC127D8E29000979DED /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		58E6BBAF27D8E29000979DED = {
 			isa = PBXGroup;
 			children = (
@@ -60,15 +95,12 @@
 		58E6BBBA27D8E29000979DED /* LearningTask-5.4 */ = {
 			isa = PBXGroup;
 			children = (
+				2E87F0FF290874FD0018F3E5 /* View */,
+				2E87F0FE290874D30018F3E5 /* SupportFiles */,
+				2E87F0FD290874C50018F3E5 /* Scene */,
+				2E87F0FC290874B50018F3E5 /* Models */,
 				58E6BBC927D8E29600979DED /* Info.plist */,
-				58E6BBBB27D8E29000979DED /* AppDelegate.swift */,
-				58E6BBBD27D8E29000979DED /* SceneDelegate.swift */,
-				58E6BBC627D8E29600979DED /* LaunchScreen.storyboard */,
 				58E6BBC427D8E29600979DED /* Assets.xcassets */,
-				58E6BBC127D8E29000979DED /* Main.storyboard */,
-				58E6BBBF27D8E29000979DED /* AutorFormViewController.swift */,
-				58C495F927D9239400DCA879 /* AutorRepository.swift */,
-				2E87F0FA2907FE190018F3E5 /* Autor.swift */,
 			);
 			path = "LearningTask-5.4";
 			sourceTree = "<group>";
